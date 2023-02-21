@@ -1,8 +1,5 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  
 }
 
 .logo {
@@ -39,4 +36,87 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Navbar */
+
+header {
+  padding: 20px 20px 20px 20px;
+  border-bottom: solid;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav img {
+  display: flex;
+  width: 80px;
+  float: left;
+}
+
+/* Athletes */
+
+.athlete {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.athlete a {
+  text-decoration: none;
+}
+
+.athlete-item h2 {
+  display: block;
+  float: left;
+}
+
+.athlete-list img {
+  width: 250px;
+}
+
+.athlete-item {
+  padding-bottom: 50px;
+}
+
+.sport {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+.sport a :hover{
+  color: pink;
+}
+
+.athlete-section {
+  padding: 20px 20px 20px 20px;
+}
+
+.athlete-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.athlete-name {
+  display: flex;
+  justify-content: left;
+}
+
+.sport-name {
+  display: flex;
+  justify-content: left;
+  float: left;
 }
