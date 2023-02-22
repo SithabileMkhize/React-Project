@@ -1,10 +1,13 @@
 import React from "react";
-import serena from "../assets/serena-williams.webp"
+import serena from "../assets/serena-williams.jpg"
 import simone from "../assets/simone-biles.jpg"
 import shellyann from "../assets/shelly-Ann.jpg"
 
 
 const Athlete = () => {
+    let athlete = [
+        
+    ]
     return (
         <section class="athlete-section">
             <div class="container">
@@ -29,13 +32,6 @@ const Athlete = () => {
                         </a>
                         <h2 class="athlete-name">Shelly-Ann Fraser-Pryce</h2>
                         <p class="sport-name">Athletics</p>
-                    </div>
-                    <div class="athlete-item">
-                        <a href="">
-                            <img src="Images/faire-wholesale-inc-logo-vector.png" alt="canva logo"/>
-                        </a>
-                        <h2 class="athlete-name">Canva</h2>
-                        <p class="sport-name">Melanie Perkins</p>
                     </div>
                 </div>
             </div>
