@@ -2,7 +2,8 @@ import React from 'react'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import Header from './components/Header'
-import Athlete from './components/Athlete'
+import AthleteSection from './components/AthleteSection'
+import AthleteItem from './components/AthleteItem'
 import './App.css'
 
 function App() {
@@ -11,23 +12,10 @@ function App() {
   return (
     <>
       <Header />
-      <Athlete />
+      <AthleteSection /> 
     </>
   )
 }
 
 export default App
 
-let AthleteArray = [{
-  image: 'serena-williams.jpg',
-  name: 'Serena Williams',
-  sport: 'Tennis',
-},{
-  image: 'simone-biles.jpg',
-  name: 'Simone Biles',
-  sport: 'Gymnastics',
-},{
-  image: 'shelly-Ann.jpg',
-  name: 'Shelly-Anne Fraser-Pryce',
-  sport: 'Athletics',
-}]

@@ -113,10 +113,11 @@ nav a {
 .athlete-name {
   display: flex;
   justify-content: left;
+  align-items: start;
+  text-align: left;
 }
 
 .sport-name {
   display: flex;
-  justify-content: left;
-  float: left;
+
 }
