@@ -58,6 +58,11 @@ nav img {
   float: left;
 }
 
+nav a {
+  align-items: start;
+  display: flex;
+}
+
 /* Athletes */
 
 .athlete {
@@ -69,7 +74,8 @@ nav img {
   float: right;
 }
 
-nav a {
+
+a {
   text-decoration: none;
 }
 
@@ -80,6 +86,11 @@ nav a {
 .athlete-item h2 {
   display: block;
   float: left;
+}
+
+.athlete-item a  {
+  text-decoration: none;
+  
 }
 
 .athlete-list img {
@@ -120,4 +131,10 @@ nav a {
 .sport-name {
   display: flex;
 
+}
+
+/* Athlete Form */
+
+.athlete-form {
+  
 }

@@ -1,15 +1,17 @@
 import React from "react";
-import AthleteSection from './components/AthleteSection'
+import { Link } from "react-router-dom";
 
-const AtheleteItem = ({athletes}) => {
+const AthleteItem = ({ athlete, idx }) => {
     return (
         <section className="athlete-section">
-            <a href="">
+            <a href="./Pages/Athletes">
                 <div className="athlete-list">
                     <div className="athlete-item">
-                        <img src={athletes.athleteimage} alt="" />
-                        <h3>{athletes.athletename}</h3>
-                        <h4>{athletes.athletesport}</h4>
+                        <a href={'/Athletes/$(idx)'}>
+                            <img src={athlete.athleteimage} alt="" />
+                            <h3>{athlete.athletename}</h3>
+                            <h4>{athlete.athletesport}</h4>
+                        </a>
                     </div>
                 </div>
             </a>
