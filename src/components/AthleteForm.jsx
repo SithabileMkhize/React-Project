@@ -11,7 +11,7 @@ const AthleteForm = () => {
                     <input type="text" />
                 </label>
                 <label>Athlete Image:
-                    <input type="file" />
+                    <input type="image" />
                 </label>
                 <input type="submit" value="Submit"/>
             </form>
